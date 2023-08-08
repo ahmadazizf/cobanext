@@ -25,5 +25,10 @@ const getSelectedAccount = async (slug) => {
     }
 }
 
+// const logins = async (payload) => {
+//     try{
+//         const res = await api.get(ENDPOINT.ACCOUNT)
+//     }
+// } 
 
 export { getAllAccount, getSelectedAccount }
